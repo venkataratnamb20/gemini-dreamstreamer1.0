@@ -1,0 +1,7 @@
+{
+  "name": "DreamStream Voice Canvas",
+  "description": "Speak your imagination into reality. Generates live storyboards of images or videos based on your voice descriptions using Gemini and Veo models.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamStream Voice Canvas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.32.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "@testing-library/react": "https://esm.sh/@testing-library/react@^16.3.0",
+    "vitest": "https://esm.sh/vitest@^4.0.15"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
